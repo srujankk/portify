@@ -1,0 +1,351 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.app-container{
+    font-family: 'Oswald', sans-serif;
+}
+
+.login-container{
+    background-image: url('../img/login_bg.jpg');
+    height:800px;
+}
+
+.login{
+    width:400px;
+    height:400px;
+    padding:40px;
+    margin:auto auto;
+    background-color: rgba(255,255,255,0.65);
+}
+
+.login h1{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom:20px;
+    border-bottom: 1px solid #222;
+}
+
+.login div{
+    padding-bottom:20px;
+}
+
+.login input{
+    padding: 5px;
+    width:100%;
+}
+
+.login input[type=button]{
+    padding:5px;
+    margin-top:10px;
+}
+
+.main-jumbotron {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    height:300px;
+    background-color: #FFC065;
+    color: #FFF;
+}
+
+.main-jumbotron h1{
+    font-size: 6em;
+    margin: 0px;
+    padding-top:50px;
+}
+
+nav{
+    color:#FFF;
+}
+
+nav .main-nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-20px;
+    max-width:950px;
+    width:100%;    
+}
+
+nav .resp-nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-20px;
+    max-width:120px;
+    width:100%;    
+}
+
+nav li, .resp-nav .resp-menu-btn{
+    list-style: none;
+    display:inline;
+    margin-left:10px;
+    padding:50px;   
+    min-height:150px;
+    background-color:#516161;
+}
+
+.resp-nav{
+    display:none;
+}
+
+.banks{
+    width:100%;
+}
+
+.banks .bank-container{
+    padding-top:80px;
+}
+.bank-container{
+    margin-top:-10px;
+    padding-top:30px;
+    max-width:950px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.detail-side-left{
+    padding-left: 30px;
+    
+}
+
+/*
+.detail-side-left header h1{
+    margin-top:280px;
+}
+*/
+.bank-detail{
+    border-left: 1px dashed #516161;    
+    padding-left:30px;
+}
+
+.bank-account{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #516161;
+}
+
+.bank-account:last-child{
+    margin-bottom: 20px;
+    border-bottom: none;
+}
+
+.account-amount{
+    float:left;
+    width:30%;
+    color:#72B05D;
+    padding-left:10px;
+}
+
+.account-description{
+    float:right;
+    width:65%;
+}
+
+.stocks{
+    background-color: #C5EFF7;
+    margin-top:30px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (max-width: 995px) {
+    .resp-nav{
+        display:block;
+    }
+    
+    nav ul{
+        display:none;
+    }
+    
+    .detail-side-left{
+        text-align: center;
+    }
+    
+    .account-amount{
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+    .account-description{
+        width:100%;
+        float:none; 
+        text-align:center;
+    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
