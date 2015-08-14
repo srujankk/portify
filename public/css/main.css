@@ -117,7 +117,7 @@ nav .main-nav{
     margin-right: auto;
     margin-top:-20px;
     max-width:950px;
-    width:100%;    
+    width:100%;
 }
 
 nav .resp-nav{
@@ -125,14 +125,14 @@ nav .resp-nav{
     margin-right: auto;
     margin-top:-20px;
     max-width:120px;
-    width:100%;    
+    width:100%;
 }
 
 nav li, .resp-nav .resp-menu-btn{
     list-style: none;
     display:inline;
     margin-left:10px;
-    padding:50px;   
+    padding:50px;
     min-height:150px;
     background-color:#516161;
 }
@@ -158,7 +158,7 @@ nav li, .resp-nav .resp-menu-btn{
 
 .detail-side-left{
     padding-left: 30px;
-    
+
 }
 
 /*
@@ -167,7 +167,7 @@ nav li, .resp-nav .resp-menu-btn{
 }
 */
 .bank-detail{
-    border-left: 1px dashed #516161;    
+    border-left: 1px dashed #516161;
     padding-left:30px;
 }
 
@@ -210,15 +210,15 @@ nav li, .resp-nav .resp-menu-btn{
     .resp-nav{
         display:block;
     }
-    
+
     nav ul{
         display:none;
     }
-    
+
     .detail-side-left{
         text-align: center;
     }
-    
+
     .account-amount{
         width:100%;
         float:none;
@@ -226,7 +226,7 @@ nav li, .resp-nav .resp-menu-btn{
     }
     .account-description{
         width:100%;
-        float:none; 
+        float:none;
         text-align:center;
     }
 }
